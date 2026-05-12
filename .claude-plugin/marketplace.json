@@ -40,7 +40,7 @@
       "description": "An interactive Claude Code skill to do red-green-refactor style TDD",
       "author": {
         "name": "afb",
-        "email": "afbreilyn@stride.build"
+        "email": "aaron.foster@breilyn.com"
       },
       "source": {
         "source": "github",
