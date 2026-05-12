@@ -18,8 +18,9 @@ Once added, you can browse and install any plugin listed below.
 
 | Plugin | Description | Version |
 | --- | --- | --- |
-| `code-formatter` | Automatic code formatting on save | 2.1.0 |
-| `deployment-tools` | Deployment automation tools | — |
+| `superpowers` | Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills. | - |
+| `learning-output-style` | Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style) | — |
+| `afb-tdd` | An interactive Claude Code skill to do red-green-refactor style TDD | - |
 
 To install a specific plugin:
 
