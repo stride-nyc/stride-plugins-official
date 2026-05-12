@@ -4,23 +4,49 @@
     "name": "Stride",
     "email": "kjudy@stride.build"
   },
+  "metadata": {
+    "description": "Official plugins for engineering at Stride"
+  },
+  "allowCrossMarketplaceDependenciesOn": [],
   "plugins": [
     {
-      "name": "code-formatter",
-      "source": "./plugins/formatter",
-      "description": "Automatic code formatting on save",
-      "version": "2.1.0",
-      "author": {
-        "name": "DevTools Team"
-      }
+      "name": "superpowers",
+      "description": "Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git",
+        "sha": "f2cbfbefebbfef77321e4c9abc9e949826bea9d7"
+      },
+      "homepage": "https://github.com/obra/superpowers.git"
     },
     {
-      "name": "deployment-tools",
+      "name": "learning-output-style",
+      "description": "Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style)",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/claude-plugins-official.git",
+        "path": "./plugins/learning-output-style"
+      },
+      "category": "learning",
+      "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/learning-output-style"
+    },
+    {
+      "name": "afb-tdd",
+      "description": "An interactive Claude Code skill to do red-green-refactor style TDD",
+      "author": {
+        "name": "afb",
+        "email": "afb@stride.build"
+      },
       "source": {
         "source": "github",
-        "repo": "company/deploy-plugin"
+        "repo": "afbreilyn/afb-tdd"
       },
-      "description": "Deployment automation tools"
+      "category": "development"
     }
   ]
 }
