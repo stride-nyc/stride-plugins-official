@@ -47,6 +47,16 @@
         "repo": "afbreilyn/afb-tdd"
       },
       "category": "development"
+    },
+    {
+      "name": "spec-writer",
+      "description": "Write engineering specifications in Stride's standard spec-driven-development format: numbered sections, citable requirement IDs, RFC 2119 keywords, contracts, error semantics, and an open-decisions register. Also reviews and grades existing specs.",
+      "author": {
+        "name": "Dylan Burns",
+        "email": "dburns@stride.build"
+      },
+      "source": "./plugins/spec-writer",
+      "category": "development"
     }
   ]
 }
