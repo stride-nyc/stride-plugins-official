@@ -21,6 +21,7 @@ Once added, you can browse and install any plugin listed below.
 | `superpowers` | Superpowers teaches Claude brainstorming, subagent driven development with built in code review, systematic debugging, and red/green TDD. Additionally, it teaches Claude how to author and test new skills. | - |
 | `learning-output-style` | Interactive learning mode that requests meaningful code contributions at decision points (mimics the unshipped Learning output style) | - |
 | `afb-tdd` | An interactive Claude Code skill to do red-green-refactor style TDD | - |
+| `cca-study` | A skill to help prepare for the Claude Certified Architect exam. Study guide broken into 15 min. lessons with a socratic approach. | - |
 
 To install a specific plugin:
 

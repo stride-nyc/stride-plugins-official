@@ -47,6 +47,20 @@
         "repo": "afbreilyn/afb-tdd"
       },
       "category": "development"
+    },
+    {
+      "name": "cca-study",
+      "description": "A skill to help prepare for the Claude Certified Architect exam. Study guide broken into 15 min. lessons with a socratic approach.",
+      "author": {
+        "name": "Ken Judy",
+        "email": "ken@judykat.com"
+      },
+      "source": {
+        "source": "github",
+        "repo": "stride-nyc/anthropic-cca-study-skill"
+      },
+      "category": "learning",
+      "homepage": "https://github.com/stride-nyc/anthropic-cca-study-skill"
     }
   ]
 }
