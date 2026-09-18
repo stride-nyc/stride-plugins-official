@@ -47,6 +47,20 @@
         "repo": "afbreilyn/afb-tdd"
       },
       "category": "development"
+    },
+    {
+      "name": "harvest",
+      "description": "Harvest time tracking skills for Claude Code, powered by the Harvest MCP server.",
+      "author": {
+        "name": "Dave Anderson",
+        "email": "dave@dvndrsn.com"
+      },
+      "source": {
+        "source": "github",
+        "repo": "dvndrsn/claude-harvest-plugin"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/dvndrsn/claude-harvest-plugin"
     }
   ]
 }
