@@ -1,0 +1,10 @@
+{
+  "name": "spec-writer",
+  "description": "Write engineering specifications in Stride's standard spec-driven-development format: numbered sections, citable requirement IDs, RFC 2119 keywords, contracts, error semantics, and an open-decisions register. Also reviews and grades existing specs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dylan Burns",
+    "email": "dburns@stride.build"
+  },
+  "keywords": ["spec", "design-doc", "rfc", "requirements", "planning"]
+}

@@ -49,6 +49,16 @@
       "category": "development"
     },
     {
+      "name": "spec-writer",
+      "description": "Write engineering specifications in Stride's standard spec-driven-development format: numbered sections, citable requirement IDs, RFC 2119 keywords, contracts, error semantics, and an open-decisions register. Also reviews and grades existing specs.",
+      "author": {
+        "name": "Dylan Burns",
+        "email": "dburns@stride.build"
+      },
+      "source": "./plugins/spec-writer",
+      "category": "development"
+    },
+    {
       "name": "pdca-framework",
       "description": "TDD-disciplined AI code generation using Plan-Do-Check-Act methodology. Enforces architecture-first analysis, strict red-green-refactor, Socratic ACT retrospectives, and optional Beads task tracking integration.",
       "author": {
