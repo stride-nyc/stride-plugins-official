@@ -49,6 +49,20 @@
       "category": "development"
     },
     {
+      "name": "harvest",
+      "description": "Harvest time tracking skills for Claude Code, powered by the Harvest MCP server.",
+      "author": {
+        "name": "Dave Anderson",
+        "email": "dave@dvndrsn.com"
+      },
+      "source": {
+        "source": "github",
+        "repo": "dvndrsn/claude-harvest-plugin"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/dvndrsn/claude-harvest-plugin"
+    },
+    {
       "name": "spec-writer",
       "description": "Write engineering specifications in Stride's standard spec-driven-development format: numbered sections, citable requirement IDs, RFC 2119 keywords, contracts, error semantics, and an open-decisions register. Also reviews and grades existing specs.",
       "author": {
