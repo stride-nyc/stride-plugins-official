@@ -49,6 +49,20 @@
       "category": "development"
     },
     {
+      "name": "cam",
+      "description": "Plan complex tasks in a living Markdown plan document, resolving questions interview-style",
+      "author": {
+        "name": "Cameron Steffen",
+        "email": "csteffen@stride.build"
+      },
+      "source": {
+        "source": "github",
+        "repo": "camsteffen/cam-claude-code-plugin"
+      },
+      "category": "development",
+      "homepage": "https://github.com/camsteffen/cam-claude-code-plugin"
+    },
+    {
       "name": "harvest",
       "description": "Harvest time tracking skills for Claude Code, powered by the Harvest MCP server.",
       "author": {
