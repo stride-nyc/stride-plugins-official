@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" data-view="read" data-stop="1" data-map="none" data-narrow="0">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>__TITLE__</title>
+<style>
+/*__PAGE_CSS__*/
+</style>
+</head>
+<body>
+<div id="app">
+  <header id="head">
+    <div class="head-in">
+      <div class="head-row">
+        <h1 id="title"></h1>
+        <button type="button" id="theme-toggle" class="btn small"></button>
+      </div>
+      <p class="built"></p>
+      <ul class="files"></ul>
+      <p class="facts"><span class="checks"></span><span class="sep" aria-hidden="true"> · </span><span class="k">Reasons:</span> <span class="reasons"></span></p>
+      <nav class="views" role="tablist" aria-label="Views">
+        <button type="button" role="tab" data-view-btn="read">Read</button>
+        <button type="button" role="tab" data-view-btn="lookup">Look up</button>
+        <button type="button" role="tab" data-view-btn="extend">Where to extend</button>
+      </nav>
+    </div>
+  </header>
+  <main id="views">
+    <section id="read" aria-label="Read">
+      <div id="map-wrap"></div>
+      <div id="bar">
+        <button type="button" id="prev" class="btn nav"></button>
+        <div id="map-label" aria-live="polite"></div>
+        <div id="pips" role="group" aria-label="Stops"></div>
+        <button type="button" id="next" class="btn nav"></button>
+        <button type="button" id="hide-map" class="linkbtn"></button>
+      </div>
+      <article id="stop"></article>
+    </section>
+    <section id="lookup" aria-label="Look up" hidden>
+      <div class="lookup-in">
+        <div class="tools">
+          <input type="search" id="filter" placeholder="Filter by name, file or function" aria-label="Filter stops" autocomplete="off">
+          <label><input type="checkbox" id="only-gaps"> Only stops with a reason not recorded</label>
+          <span id="count" aria-live="polite"></span>
+        </div>
+        <div id="outline" class="outline"></div>
+        <p class="empty" id="no-match" hidden>No stop matches.</p>
+      </div>
+    </section>
+    <section id="extend" aria-label="Where to extend" hidden>
+      <div class="extend-in">
+        <ul id="extend-list"></ul>
+        <p class="empty" id="no-extend" hidden>No places to extend were noted.</p>
+      </div>
+    </section>
+  </main>
+</div>
+<script type="application/json" id="walk-data">
+__WALK_DATA__
+</script>
+<script type="application/json" id="map-page">
+__MAP_PAGE__
+</script>
+<script>
+//__PAGE_JS__
+</script>
+</body>
+</html>
