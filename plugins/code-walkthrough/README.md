@@ -21,7 +21,7 @@ reason.
   journey. Place it in `~/.claude/skills/chalk-talk` or in a project's `.claude/skills/chalk-talk`.
   Without it, the page builds with no map.
 
-Tested on macOS and Linux. Not tested on Windows.
+Tested on macOS. Not tested on Linux or Windows.
 
 ## Use
 
