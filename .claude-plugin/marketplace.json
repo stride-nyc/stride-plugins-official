@@ -115,6 +115,15 @@
       },
       "category": "development",
       "homepage": "https://github.com/kenjudy/pdca-framework"
+    },
+    {
+      "name": "code-walkthrough",
+      "description": "Walk through one journey in real code, stop by stop: the actual lines, data in and out, and why, with every reason quoted from its source or marked not recorded.",
+      "author": {
+        "name": "Dean Betty"
+      },
+      "source": "./plugins/code-walkthrough",
+      "category": "development"
     }
   ]
 }

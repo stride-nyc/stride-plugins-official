@@ -1,0 +1,9 @@
+{
+  "name": "code-walkthrough",
+  "description": "Walk through one journey in real code, stop by stop: the actual lines, data in and out, and why, with every reason quoted from its source or marked not recorded.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dean Betty"
+  },
+  "keywords": ["code-walkthrough", "onboarding", "code-reading", "explain", "planning"]
+}
