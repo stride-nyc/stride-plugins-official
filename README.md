@@ -24,6 +24,7 @@ Once added, you can browse and install any plugin listed below.
 | `cam` | Plan complex tasks in a living Markdown plan document, resolving questions interview-style | - |
 | `harvest` | Harvest time tracking skills for Claude Code, powered by the Harvest MCP server. | - |
 | `spec-writer` | Write engineering specifications in Stride's standard spec-driven-development format: numbered sections, citable requirement IDs, RFC 2119 keywords, contracts, error semantics, and an open-decisions register. Also reviews and grades existing specs. | 1.0.0 |
+| `code-walkthrough` | Walk through one journey in real code, stop by stop: the actual lines, data in and out, and why, with every reason quoted from its source or marked not recorded. | 1.0.0 |
 
 To install a specific plugin:
 
