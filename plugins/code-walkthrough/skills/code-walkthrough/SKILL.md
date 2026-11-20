@@ -141,7 +141,7 @@ Not recorded, questions for the team:
 <the build's numbered questions, as printed>
 ```
 
-The first line starts with the page's full path: the `WROTE` line that ends in `.html`, as printed. Nothing comes before it, not even a note on what a check round fixed. The `Next journey:` line goes in only when step 3 split the request; otherwise offer no other walkthrough. When the build ran with `--chalk none`, its `Map:` line says the map was not built and that chalk-talk is at github.com/oztrkemree/chalk-talk; give it as printed. `<R>` and `<Q>` are the note's `reasons_recorded` and `reasons_not_recorded`, and the list holds every not-recorded question, in stop order. The uncommitted paths in the `Built from commit` line are the data file's `repos[].uncommitted` after the build. The build's three files are the run's only writes outside the working folder: no other file, no other note.
+The first line starts with the page's full path: the `WROTE` line that ends in `.html`, as printed. Nothing comes before it, not even a note on what a check round fixed. The `Next journey:` line goes in only when step 3 split the request; otherwise offer no other walkthrough. When chalk-talk was not found, the build's `Map:` line says the map was not built and that chalk-talk is at github.com/oztrkemree/chalk-talk; give it as printed. `<R>` and `<Q>` are the note's `reasons_recorded` and `reasons_not_recorded`, and the list holds every not-recorded question, in stop order. The uncommitted paths in the `Built from commit` line are the data file's `repos[].uncommitted` after the build. The build's three files are the run's only writes outside the working folder: no other file, no other note.
 
 ## Common mistakes
 

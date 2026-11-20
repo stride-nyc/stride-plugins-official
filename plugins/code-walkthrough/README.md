@@ -9,6 +9,8 @@ reason.
 
 ## Install
 
+Add this marketplace first, as the root README shows. Then:
+
 ```sh
 /plugin install code-walkthrough
 ```
@@ -19,7 +21,8 @@ reason.
 - Optional: `gh`, to read pull requests for reasons.
 - Optional: [chalk-talk](https://github.com/oztrkemree/chalk-talk) (MIT) to draw a map of the
   journey. Place it in `~/.claude/skills/chalk-talk` or in a project's `.claude/skills/chalk-talk`.
-  Without it, the page builds with no map.
+  Without it, the page builds with no map. chalk-talk checks the map's layout with Chrome; without
+  Chrome, the map is built but not checked.
 
 Tested on macOS. Not tested on Linux or Windows.
 
@@ -41,4 +44,4 @@ page. The note is a short index the skill's lookup step reads, so it uses `[[nam
 Set `CODE_WALKTHROUGH_HOME` to move the parent folder. It must not sit inside a git repo; the skill
 refuses to build there. The build's own messages call this parent folder "the vault".
 
-**Share with care.** The page holds your code and local file paths.
+**Share with care.** The page and its data file hold your code and local file paths.
