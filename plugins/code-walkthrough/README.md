@@ -9,9 +9,8 @@ reason.
 
 ## Install
 
-Add this marketplace first, as the root README shows. Then:
-
 ```sh
+/plugin marketplace add stride-nyc/stride-plugins-official
 /plugin install code-walkthrough
 ```
 
